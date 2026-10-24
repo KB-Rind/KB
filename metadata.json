@@ -1,0 +1,7 @@
+{
+  "name": "Cozimo",
+  "description": "Cozy stories, calming lullabies, nursery rhymes, and gentle sleep sounds for peaceful nights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

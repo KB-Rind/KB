@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Fredoka', 'Nunito', system-ui, sans-serif;
+  }
+}
+
+/* Custom soothing amber glow and night ambient transitions */
+.glow-moon {
+  box-shadow: 0 0 50px 10px rgba(251, 191, 36, 0.25), 0 0 100px 30px rgba(245, 158, 11, 0.15);
+}
+
+.glow-ambient {
+  box-shadow: 0 0 35px 5px rgba(124, 58, 237, 0.2), 0 0 70px 15px rgba(59, 130, 246, 0.15);
+}
+
+.glow-warm {
+  box-shadow: 0 0 40px 10px rgba(249, 115, 22, 0.2);
+}
+
+/* Smooth custom range slider */
+input[type=range] {
+  accent-color: #f59e0b;
+}
+
+/* Hide scrollbar for clean storybook cards */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
